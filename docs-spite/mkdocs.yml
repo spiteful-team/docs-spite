@@ -3,7 +3,9 @@ site_url: http://docs.spiteful.ru
 repo_url: https://github.com/likhachev-mischa/SPITE-Engine
 repo_name: spite-engine
 nav:
-  - Home: index.md
+  - Overview: index.md
+  - ECS Framework:
+    - Overview: ecs.md
 
 theme:
   palette:
