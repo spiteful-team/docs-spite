@@ -2,10 +2,15 @@ site_name: SPITE docs
 site_url: http://docs.spiteful.ru
 repo_url: https://github.com/likhachev-mischa/SPITE-Engine
 repo_name: spite-engine
+
+### MAIN NAVIGATION
 nav:
   - Overview: index.md
   - ECS Framework:
     - Overview: ecs.md
+
+
+
 
 theme:
   palette:
@@ -29,7 +34,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.tracking
     - navigation.path
     - navigation.top
@@ -48,3 +53,7 @@ extra:
       link: https://github.com/gpuslave
       name: Docs Maintainer
   generator: false
+
+markdown_extensions:
+  - pymdownx.highlight: {}
+  - pymdownx.superfences: {}
